@@ -1,0 +1,109 @@
+# production
+build
+tsconfig.tsbuildinfo
+
+# test 
+__test__
+__test__.js
+__test__.ts
+
+# dependencies
+node_modules
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+
+
+# vscode
+# .vscode
+
+# service
+service/public/__static__
+service/__runtime__
+service/__runtime__.log
+service/lib
+
+
+# client
+dist
+dist-ssr
+*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# app
+.metro-health-check*
+mobile/ios/Pods/
+mobile/vendor/bundle/
+mobile/ios/.xcode.env.local
+mobile/Gemfile.lock
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+*.jsbundle
+.metro-health-check*
+
+#其他
+.firebase
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json*
+yarn.lock*
+lerna-debug.log*
+
+# OSX
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+.dependencies
+
+
+
+
+
+
+
+
+
+
+

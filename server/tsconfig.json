@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+    ],
+    "baseUrl": ".",
+    "allowJs": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "noImplicitThis": false,
+    "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+    },
+  },
+  "include": [
+    "../types",
+    "middleware",
+    "utils",
+    "router",
+    "index.ts",
+    "index.config.ts"
+  ]
+}

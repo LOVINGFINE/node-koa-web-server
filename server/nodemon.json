@@ -1,0 +1,15 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules"
+  ],
+  "ext": "js json ts tsx jsx",
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "watch": [
+    "*.ts",
+    "*.json"
+  ],
+  "legacy-watch": false
+}
