@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./theme.scss);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  &::after {
+    border: none;
+  }
+  &::before {
+    border: none;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+svg {
+  font-size: 1em;
+  width: 1em;
+  height: 1em;
+}

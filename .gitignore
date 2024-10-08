@@ -4,12 +4,16 @@ tsconfig.tsbuildinfo
 
 # test 
 __test__
+<<<<<<< HEAD
 __test__.js
 __test__.ts
+=======
+>>>>>>> da8a6cd (init)
 
 # dependencies
 node_modules
 
+<<<<<<< HEAD
 # Android/IntelliJ
 build/
 .idea
@@ -43,6 +47,8 @@ service/__runtime__.log
 service/lib
 
 
+=======
+>>>>>>> da8a6cd (init)
 # client
 dist
 dist-ssr
@@ -52,19 +58,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# app
-.metro-health-check*
-mobile/ios/Pods/
-mobile/vendor/bundle/
-mobile/ios/.xcode.env.local
-mobile/Gemfile.lock
-**/fastlane/report.xml
-**/fastlane/Preview.html
-**/fastlane/screenshots
-**/fastlane/test_output
-*.jsbundle
-.metro-health-check*
 
 #其他
 .firebase
@@ -94,8 +87,6 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-
-.dependencies
 
 
 
