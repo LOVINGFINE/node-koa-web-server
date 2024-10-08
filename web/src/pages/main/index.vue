@@ -1,14 +1,12 @@
 <template>
-  <div class="main">main</div>
+  <div class="w-full h-full">
+    {{ $t('aaa') }}
+  </div>
 </template>
 
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-</script>
+import { useI18n } from '@/hooks';
 
-<style scoped lang="scss">
-.main {
-  width: 100%;
-  height: 100%;
-}
-</style>
+const { $t } = useI18n();
+</script>

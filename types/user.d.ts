@@ -10,7 +10,7 @@ interface UserInfo extends DbSchema {
   createTime: string;
 }
 
-interface AuthRes {
+interface ResAuth {
   token: string;
   dateTime: string;
 }

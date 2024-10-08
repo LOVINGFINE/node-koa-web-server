@@ -20,9 +20,11 @@ export const useAuth = defineStore('auth', () => {
   }
 
   function refreshMyInfo() {
-    userApi.getMyInfo().then((v) => {
-      myInfo.value = v;
-    });
+    if (isLogin.value) {
+      userApi.getMyInfo().then((v) => {
+        myInfo.value = v;
+      });
+    }
   }
 
   watch(token, refreshMyInfo);
