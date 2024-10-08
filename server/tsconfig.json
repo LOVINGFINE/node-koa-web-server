@@ -32,6 +32,7 @@
     "utils",
     "router",
     "index.ts",
-    "index.config.ts"
+    "index.config.ts",
+    "type.d.ts",
   ]
 }

@@ -1,7 +1,7 @@
 import createRequest from '@/utils/request';
 
 const request = createRequest({
-  baseURL: import.meta.env.VITE_API_TAG_URL,
+  baseURL: import.meta.env.VITE_API_BASE_URL,
 });
 
 const userApi = {

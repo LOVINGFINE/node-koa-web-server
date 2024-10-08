@@ -9,3 +9,4 @@ interface DbSchema {
   createTime: string;
   updateTime: string;
 }
+

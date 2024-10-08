@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
-import './styles/index.scss';
 import { createPinia } from 'pinia';
+import './styles/index.scss';
 import router from '@/router';
 import App from './App.vue';
 
@@ -8,11 +8,11 @@ const pinia = createPinia();
 
 const main = createApp(App);
 
-/** 路由 */
+/** @路由 */
 main.use(router);
 
-/** store */
+/** @store */
 main.use(pinia);
 
-/** 挂载 */
+/** @挂载 */
 main.mount('#app');

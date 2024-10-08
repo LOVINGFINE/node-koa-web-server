@@ -1,10 +1,17 @@
-import { BaseController, Controller, Post } from '@/middleware/controller';
+import { BaseController, Controller, Post, Get } from '@/middleware/controller';
 
 @Controller('')
-export default class UserRouter extends BaseController {
-  @Post('login')
+class AuthRouter extends BaseController {
+  @Post('login', true)
   login() {
     console.log(this.body);
     this.status.ok('hello world!');
   }
+
+  @Get('myInfo')
+  toTokenInfo() {
+    this.status.ok('hello world!');
+  }
 }
+
+export default AuthRouter;

@@ -3,12 +3,12 @@
 </template>
 
 <script setup lang="ts">
-import useGlobalState from '@/store';
+import { useAuth } from '@/hooks';
 
-const global = useGlobalState();
+const auth = useAuth();
 
-// 初始化token
-global.sync();
+/** @初始化token */
+auth.sync();
 </script>
 
 <style scoped lang="scss">
